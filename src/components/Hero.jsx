@@ -35,15 +35,32 @@ const Hero = () => {
       }}
     >
       <div
-        className="text-center p-4"
+        className="p-4"
         style={{
+          position: 'absolute',
+          top: '50%',
+          left: '5%',
+          transform: 'translateY(-50%)',
           backdropFilter: 'blur(10px)',
           backgroundColor: 'rgba(0, 0, 0, 0.4)',
           borderRadius: '12px',
+          color: 'white',
+          textAlign: 'right',
+          maxWidth: '35%',
         }}
       >
         <h1>Welcome to My Portfolio</h1>
-        <p>I'm Arvind, a Full Stack Developer</p>
+        <p>I'm Arvind, a Computer Science Master's graduate specializing in machine learning and cloud-based applications, with experience developing
+web solutions, AI/ML pipelines, and deploying big data analytics on cloud platforms. Passionate about impactful technology
+for healthcare and education.</p>
+        <a
+          href="#/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-light"
+        >
+          View My Resume
+        </a>
       </div>
     </section>
   );
