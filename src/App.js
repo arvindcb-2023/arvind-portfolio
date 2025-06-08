@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import ScrollIndicator from './components/ScrollIndicator';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <Footer/>
       <ScrollToTop />
     </>
   );

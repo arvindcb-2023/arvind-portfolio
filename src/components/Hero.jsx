@@ -45,12 +45,12 @@ const Hero = () => {
           backgroundColor: 'rgba(0, 0, 0, 0.4)',
           borderRadius: '12px',
           color: 'white',
-          textAlign: 'right',
+          textAlign: 'justify',
           maxWidth: '35%',
         }}
       >
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm Arvind, a Computer Science Master's graduate specializing in machine learning and cloud-based applications, with experience developing
+        <h1>Hi, I'm Arvind!</h1>
+        <p>A Computer Science Master's graduate specializing in machine learning and cloud-based applications, with experience developing
 web solutions, AI/ML pipelines, and deploying big data analytics on cloud platforms. Passionate about impactful technology
 for healthcare and education.</p>
         <a
