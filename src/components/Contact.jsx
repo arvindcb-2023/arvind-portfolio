@@ -17,15 +17,15 @@ const Contact = () => {
           <div className="col-md-6">
             <div className="bg-dark p-4 rounded shadow-sm h-100">
               <h5>Get in Touch</h5>
-              <p><FaEnvelope className="me-2" /> arvind@example.com</p>
-              <p><FaPhoneAlt className="me-2" /> +1 (234) 567-8901</p>
+              <p><FaEnvelope className="me-2" /> arvindcb10@gmail.com</p>
+              <p><FaPhoneAlt className="me-2" /> +1 (437) 662-0546</p>
               <p><FaMapMarkerAlt className="me-2" /> Thunder Bay, Ontario, Canada</p>
 
               <div className="mt-4 d-flex gap-3">
                 <a href="https://github.com/arvindcb-2023" target="_blank" rel="noreferrer" className="text-light">
                   <FaGithub size={24} />
                 </a>
-                <a href="https://linkedin.com/in/arvindcb" target="_blank" rel="noreferrer" className="text-light">
+                <a href="https://www.linkedin.com/in/arvind-cb/" target="_blank" rel="noreferrer" className="text-light">
                   <FaLinkedin size={24} />
                 </a>
               </div>
