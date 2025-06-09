@@ -12,13 +12,13 @@ const Projects = () => {
       title: 'Integrating Multi-omics Data via Latent Space Construction for Breast and Bladder Cancer Analysis',
       description: 'Developed a deep learning pipeline integrating gene expression, DNA methylation, and copy number alteration data via Deep Multiset CCA and Graph Attention Networks to create a shared latent space, which improved cancer subtype prediction and biomarker identification for breast and bladder cancer.',
       tech: ['GAT', 'DMCCA', 'Python'],
-      code: 'https://github.com/arvindcb-2023/cancer-analysis',
+      code: 'https://github.com/arvindcb-2023/dmcca-gat-cancer-analysis',
     },
     {
       title: 'QuickEval (Assignment Grader)',
       description: 'Web-based grading platform using Flask, Bootstrap5, and Firebase, featuring instructor and student dashboards. Integrated NLP models (BERT embeddings + cosine similarity) to automatically evaluate submitted PDFs based on keyword relevance, semantic similarity, plagiarism, and submission punctuality. Enabled scalable, transparent, and objective grading for educational use cases.',
       tech: ['BERT', 'Flask', 'NLP'],
-      code: 'https://github.com/arvindcb-2023/assignment-grader',
+      //code: '#',
     },
     {
       title: 'YouTube Trending Video Analysis using Apache Spark',
@@ -36,7 +36,7 @@ const Projects = () => {
       title: 'Multilingual Telehealth Diagnosis for Underserved Areas',
       description: 'A multilingual telehealth chatbot that accurately diagnoses diseases (97% accuracy) and suggests medical actions by processing user symptoms in five Indian languages, powered by an ensemble of 10 machine learning classifiers.',
       tech: ['Flask', 'Python', 'ML'],
-      code: '#'
+      //code: '#'
     },
   ];
 

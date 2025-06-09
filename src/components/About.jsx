@@ -13,6 +13,7 @@ import {
   FaDocker,
   FaRProject,
   FaLinux,
+  FaExternalLinkAlt
 } from 'react-icons/fa';
 import { SiMongodb, SiMysql, SiFirebase, SiApachehadoop, SiApachespark, SiTensorflow, SiGooglecloud, /*SiAmazonaws*/ } from 'react-icons/si';
 
@@ -71,6 +72,34 @@ const About = () => {
                   machine learning, and full-stack development. I enjoy blending data science with web
                   technology to create impactful tools and models.
                 </p>
+              </div>
+              <div className="col-12">
+                <div className="bg-dark text-white h-100 p-3">
+                  <h5 className="mb-3">Achievements</h5>
+                  <ul className="list-unstyled mb-0">
+                    <li className="mb-3">
+                      <strong>Finalist</strong>, Google Developer Student Club Hackathon <a href="https://github.com/arvindcb-2023/hackathon"
+                          className="text-white ms-2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >
+                          <FaExternalLinkAlt />
+                          </a>  
+                          <br />
+                      <small>Lakehead University, 2023</small>
+                    </li>
+                    <li className="mb-3">
+                      <strong>Guest Speaker</strong>, Career Guidance Program <a href="https://www.linkedin.com/posts/arvind-cb_education-careeropportunities-outreachprogram-activity-7112148663795122177-Mml8/   "
+                          className="text-white ms-2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >
+                          <FaExternalLinkAlt />
+                          </a>  <br />                   
+                          <small>Govt. High School, Kumizhi, Tamil Nadu, India, 2023</small>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
