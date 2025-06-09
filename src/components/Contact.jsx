@@ -28,7 +28,16 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/arvind-cb/" target="_blank" rel="noreferrer" className="text-light">
                   <FaLinkedin size={24} />
                 </a>
+                <a
+                  href="/Arvind-Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light"
+                >
+                  View My Resume
+                </a>
               </div>
+              
             </div>
           </div>
 

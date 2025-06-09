@@ -54,7 +54,7 @@ const Hero = () => {
 web solutions, AI/ML pipelines, and deploying big data analytics on cloud platforms. Passionate about impactful technology
 for healthcare and education.</p>
         <a
-          href="#/resume.pdf"
+          href="/Arvind-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline-light"
