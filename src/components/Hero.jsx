@@ -35,7 +35,7 @@ const Hero = () => {
       }}
     >
       <div
-        className="p-4"
+        className="p-2"
         style={{
           position: 'absolute',
           top: '50%',
@@ -46,7 +46,7 @@ const Hero = () => {
           borderRadius: '12px',
           color: 'white',
           textAlign: 'justify',
-          maxWidth: '35%',
+          maxWidth: '45%',
         }}
       >
         <h1>Hi, I'm Arvind!</h1>

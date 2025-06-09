@@ -24,3 +24,9 @@ html {
 *::-webkit-scrollbar {
   display: none;                    /* Chrome, Safari */
 }
+
+@media (max-width: 768px) {
+  .hero-card {
+    max-width: 100% !important;
+  }
+}
